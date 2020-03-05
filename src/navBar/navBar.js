@@ -7,7 +7,7 @@ class NavBar extends Component {
         return (
             <nav>
                 <div>
-                    <img src={logo} alt="Company logo" />
+                    
                 </div>
                 <ul className="nav-list">
                     <li className="nav-item">some link</li>
