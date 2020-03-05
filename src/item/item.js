@@ -5,7 +5,7 @@ class Item extends Component{
   render() {
     return(
         <div className="item-image">
-            <img alt="image of product here"/>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/918NAFLIXHL._AC_SX355_.jpg" alt="image of product here"/>
         </div>
         
     )
