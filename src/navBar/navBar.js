@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import logo from '../images/logo.jpeg';
 import './navBar.css'
 
 class NavBar extends Component {
@@ -6,7 +7,7 @@ class NavBar extends Component {
         return (
             <nav>
                 <div>
-                    <img alt="Company logo" />
+                    <img src={logo} alt="Company logo" />
                 </div>
                 <ul className="nav-list">
                     <li className="nav-item">some link</li>
