@@ -5,7 +5,8 @@ class Item extends Component{
   render() {
     return(
         <div className="item-image">
-            {images.map(img => <img key={img.id}/>)}
+            {images.map(({id, src}) => <img //src={src}
+             key={id} />)}
         </div>
         
     )
