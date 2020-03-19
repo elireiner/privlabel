@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import './item.css'
-
+import './item.css';
+import images from "../images/images"
 class Item extends Component{
   render() {
     return(
         <div className="item-image">
-            <img src="https://images-na.ssl-images-amazon.com/images/I/918NAFLIXHL._AC_SX355_.jpg" alt="image of product here"/>
+            {images.map(img => <img key={img.id}/>)}
         </div>
         
     )
