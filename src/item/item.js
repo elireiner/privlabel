@@ -9,13 +9,17 @@ class Item extends Component {
   }
 
   componentDidMount() {
-    setInterval(() => {
+    this.intervalID = setInterval(() => {
       this.setState({
         img: this.state.img + 1
       })
     }, 3000)
   }
 
+  componentWillUnmount() {
+    clearInterval(this.intervalID)
+  }
+  
   render() {
     return (
       <div className="item-image">
