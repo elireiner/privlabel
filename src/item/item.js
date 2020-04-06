@@ -7,23 +7,29 @@ class Item extends Component {
   state = {
     img: 0
   }
-
+ 
   componentDidMount() {
     this.intervalID = setInterval(() => {
-      this.setState({
+      if (this.state.img < img.length){
+        this.setState({
         img: this.state.img + 1
       })
-    }, 3000)
+    } else {
+      this.setState({
+        img: 0
+      })
+    }}, 2000)
   }
 
   componentWillUnmount() {
     clearInterval(this.intervalID)
   }
-  
+
   render() {
     return (
       <div className="item-image">
-        {img[this.state.img]}
+        {//img[this.state.img]
+        }
       </div>
 
     )
