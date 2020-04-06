@@ -10,9 +10,11 @@ class NavBar extends Component {
                     
                 </div>
                 <ul className="nav-list">
-                    <li className="nav-item">some link</li>
-                    <li className="nav-item">some link</li>
-                    <li className="nav-item">some link</li>
+                    <div className="logo"/>
+                   {// <li className="nav-item">some link</li>
+                    //<li className="nav-item">some link</li>
+                    //<li className="nav-item">some link</li>
+                }
                 </ul>
             </nav>
         )
