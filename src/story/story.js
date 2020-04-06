@@ -17,7 +17,7 @@ class Story extends Component {
                     condimentum sit amet aliquet quis, venenatis pellentesque dui. 
                     Phasellus a 
                     lectus et dolor interdum varius ut nec orci. Mauris vel ex et risus tincidunt pulvinar.</p>
-
+                    <a href="http://www.amazon.com">contact</a>
               
         </div >
     )
