@@ -27,9 +27,8 @@ class Item extends Component {
 
   render() {
     return (
-      <div className="item-image">
-        {//img[this.state.img]
-        }
+      <div className="item-images">
+        <img className="item-image" src={img[this.state.img]} />
       </div>
 
     )
