@@ -6,3 +6,9 @@
     justify-content: center;
     color: brown;
 }
+
+.item-images {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
