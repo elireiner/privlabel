@@ -10,7 +10,7 @@ class NavBar extends Component {
                     
                 </div>
                 <ul className="nav-list">
-                    <div className="logo"/>
+                    <img src="../images/mobile-logo.jpg" className="logo"/>
                    {// <li className="nav-item">some link</li>
                     //<li className="nav-item">some link</li>
                     //<li className="nav-item">some link</li>
