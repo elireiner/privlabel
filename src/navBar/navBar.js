@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../images/logo.jpeg';
+import mobile from '../images/mobile.jpg';
 import './navBar.css'
 
 class NavBar extends Component {
@@ -10,7 +10,7 @@ class NavBar extends Component {
                     
                 </div>
                 <ul className="nav-list">
-                    <img src="../images/mobile-logo.jpg" className="logo"/>
+                    <img src={mobile} className="logo"/>
                    {// <li className="nav-item">some link</li>
                     //<li className="nav-item">some link</li>
                     //<li className="nav-item">some link</li>
