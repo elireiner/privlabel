@@ -7,4 +7,8 @@
     justify-content: center;
     color: brown;
     background-color: gray;
+    text-transform: capitalize;
+}
+a{
+    text-decoration: none;
 }
