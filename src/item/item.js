@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './item.css';
 import images from "../images/images"
 
-let imgArray = images.map(({ id, src }) => <img src={src} key={id} />)
+let imgArray = images.map(({src, id}) => { return {src, id}})
 class Item extends Component {
   state = {
     img: 0
@@ -28,7 +28,7 @@ class Item extends Component {
   render() {
     return (
       <div className="item-images">
-        <img className="item-image" src={imgArray[this.state.img]} />
+        <img className="item-image" src={imgArray[this.state.img].src} />
       </div>
 
     )
